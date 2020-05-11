@@ -98,6 +98,7 @@ body {
 	margin: 0;
 	list-style-type: none;
 	float: left;
+	z-index:12;
 }
 .top_contacts{
 	float: right;
@@ -121,18 +122,39 @@ h1 {
 .slider_container {
 	position: relative;
 }
-.next_buitton,
-.prev_button{
-	color: #000;
-	font-size: 46px;
-	position: absolute;]
-	z-index: 10;
-	cursor: pointer;
-	top: 20%;
+.next_button, .prev_button{
+    color: #4aaad2;
+    font-size: 46px;
+    position: absolute;
+    z-index: 10;
+    cursor: pointer;
+	top: 40%;
+	background-color:rgba(255,255,255,.5);
+	padding: 0 22px;
+	border-radius: 7em;
 }
-.next_buitton{
+
+.next_button{
     right: 20px;
 }
-.prev_buitton{
+.prev_button{
     left: 20px;
+}
+section.order {
+	background-color: #eee;
+	padding: 20px 0;
+}
+.sel_descr {
+	font-size:20px;
+	
+}
+.button {
+	border: medium none;
+	display: block;
+	background-color: rgb(61, 94, 89);
+	color: #fff;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	border-radius: 5px;
+
 }

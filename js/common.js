@@ -48,7 +48,6 @@ $(document).ready(function() {
 	var owl = $(".carousel");
 	owl.owlCarousel({
 		items : 3,
-		margin:0,
 		autoHeight:true
 	});
 	owl.on("mousewheel", ".owl-wrapper", function (e) {
