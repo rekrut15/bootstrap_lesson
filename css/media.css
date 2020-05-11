@@ -7,7 +7,14 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-   
+    .sel_right .button {
+        margin: 15px auto;
+        float:none;
+    }
+    .sel_descr {
+        text-align: center;
+    }
+
     .main_mnu ul {
         display: none;
         position: absolute;

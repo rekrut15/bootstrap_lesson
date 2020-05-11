@@ -17,10 +17,11 @@
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+	border: red 3px solid;
 }
 body input:required:valid,
 body textarea:required:valid {
+	border: green 3px solid;
 	
 }
 body {
@@ -146,6 +147,7 @@ section.order {
 }
 .sel_descr {
 	font-size:20px;
+	padding-top: 5px;
 	
 }
 .button {
@@ -156,5 +158,34 @@ section.order {
 	padding: 10px 20px;
 	text-transform: uppercase;
 	border-radius: 5px;
+}
+.button:hover{
+	background-color: rgb(71, 104, 99);
+} 
+.button:active{
+	background-color: rgb(51, 84, 79);
 
+}
+.sel_right .button {
+	float: right;
+}
+.hidden {
+display:none;
+}
+.popform input[type=text] {
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	border: #999 3px solid;
+}
+.popform .button {
+	margin: 0 auto 12px;
+}
+.popform h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	font-family: "RobotoCondensedBold";
+	text-transform: uppercase;
 }
