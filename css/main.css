@@ -1,0 +1,138 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+.header_topline {
+	background-color:#43484c;
+	padding: 15px 0;
+	color: #fff;
+}
+.header_topline a {
+	color: #fff;
+}
+.top_links {
+	vertical-align: middle;
+	display: inline-block;
+	z-index: 10;
+
+}
+.top_links a {
+    text-decoration: underline;
+}
+.top_links a:hover {
+	text-decoration: none;
+}
+.soc_buttons {
+	float: right;
+}
+.soc_buttons a {
+	font-size:26px;
+	margin-left: 7px;
+}
+.auth-buttons, .main_mnu_buitton {
+	border: none;
+	background-color: transparent;
+	font-size: 26px;
+}
+.main_mnu_buitton {
+	color: #fff;
+	padding: 8px 15px 0;
+}
+.logo{
+	display: block;	
+	padding: 15px 0;
+	color: #fff;
+	font-family: "NautilusPompiliusRegular";
+	font-size: 40px;
+	text-align: center;
+}
+.top_header{
+	background-color: #4aaad2;
+}
+.main_mnu{
+	background-color: #4194b8;
+	margin-bottom: 20px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.main_mnu a{
+	color: #fff;
+	padding: 15px 10px;
+	display: block;
+	-webkit-transition: all .25s;
+	-moz-transition: all .25s;
+	-ms-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.main_mnu a:hover{
+	background-color: #3689ad;
+}
+.main_mnu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	float: left;
+}
+.top_contacts{
+	float: right;
+	font-size: 32px;
+	padding: 0 15px;
+	background-color: #3689ad;
+	line-height: 52px;
+}
+.main_mnu li{
+	display: inline-block;
+}
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: "RobotoCondensedLight";
+}
+.slider_container img {
+	max-width: 100%;
+}
+.slider_container {
+	position: relative;
+}
+.next_buitton,
+.prev_button{
+	color: #000;
+	font-size: 46px;
+	position: absolute;]
+	z-index: 10;
+	cursor: pointer;
+	top: 20%;
+}
+.next_buitton{
+    right: 20px;
+}
+.prev_buitton{
+    left: 20px;
+}
