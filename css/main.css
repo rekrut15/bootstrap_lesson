@@ -190,10 +190,23 @@ display:none;
 	text-transform: uppercase;
 	}
 .block_item img {
-	max-width:100px;
+	max-width:100%;
+	margin-bottom: 20px;
 }
-.block_item img {
+.block_item h3 {
 	text-transform: uppercase;
 	font-family: "RobotoCondensedRegular";
-
+	margin-bottom: 10px;
+}
+.block_item h3 a{
+	text-decoration: underline;
+}
+.block_item h3 a {
+	margin-top: 0;
+}
+.right_aside {
+	padding: 15px 20px;
+	border-radius: 5px;
+	background-color: #eee;
+	margin-top: 20px;
 }
