@@ -188,4 +188,12 @@ display:none;
 	font-weight: normal;
 	font-family: "RobotoCondensedBold";
 	text-transform: uppercase;
+	}
+.block_item img {
+	max-width:100px;
+}
+.block_item img {
+	text-transform: uppercase;
+	font-family: "RobotoCondensedRegular";
+
 }
